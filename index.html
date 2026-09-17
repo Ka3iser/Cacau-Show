@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #F9F9F9;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        header{
+            background-color: #3A190C;
+            color: #FCDEC6;
+            width: 100%;
+            height: 180px;
+            font-size: 20px;
+            text-align: center;
+        }
+        h1{
+            font-family: serif;
+            font-size: 70px;
+        }
+        a{
+            color: #FCDEC6;
+        }
+        footer{
+            background-color: #3A190C;
+            color: #FCDEC6;
+        }
+        h2{
+            font-size: 50px;
+        }
+        table{
+            width: 100%;
+        }
+        section{
+            background-color: #ECECEB;
+        }
+        td{
+            text-align: center;
+        }
+        span{
+            font-size: 25px;
+        }
+        input{
+            width: 300px;
+            height: 30px;
+        }
+        button{
+            height: 37px;
+            width: 50px;
+        }
+    </style>
+    <title>Cacau Show</title>
+</head>
+<body>
+    <header>
+        <h1>Cacau Show</h1>
+        <nav>
+            <table>
+                <tr>
+                    <!-- pagina inicial -->
+                    <td width="13%" align="end">
+                        <a href="index.html">Chocolates</a>
+                    </td>
+                    <!-- pagina de biscoitos -->
+                    <td width="13%" align="end">
+                        <a href="biscoitos.html">Biscoitos</a>
+                    </td>
+                    <!-- pagina de presentes -->
+                    <td width="13%" align="end">
+                        <a href="presentes.html">Presentes</a>
+                    </td>
+                    <!-- pagina sobre -->
+                    <td width="13%" align="end">
+                        <a href="sobreNos.html">Sobre nós</a>
+                    </td>
+                    <!-- botão de cadastro -->
+                    <td style="background-color: #FBA600;">
+                        <a href="cadastro.html" style="color: white;">Entrar</a>
+                    </td>
+                    <!-- pesquisa -->
+                    <td align="center">
+                        <input type="text" placeholder="Buscar Produto">
+                        <button>🔍</button>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <h2>Chocolates</h2>
+        <!-- chocolates em barra -->
+        <section>
+            <h3>Em barra</h3>
+            <table border="1" width="100%" cellpadding="0" cellspacing="0">
+                <!-- imagem do produto -->
+                <tr height="330px">
+                    <td width="25%">
+                        <img src="./img/barras/laCremeAoLeite.webp" alt="" width="200px">
+                    </td>
+                    <td width="25%">
+                        <img src="./img/barras/laCremeMezzo.webp" alt="" width="200px">
+                    </td>
+                    <td width="25%">
+                        <img src="./img/barras/laCremePistache.webp" alt="" width="200px">
+                    </td>
+                    <td width="25%">
+                        <img src="./img/barras/laCremeAvela.webp" alt="" width="200px">
+                    </td>
+                </tr>
+                <!-- nome do produto -->
+                <tr>
+                    <td>
+                        <p>
+                            Barra laCreme de Chocolate ao Leite 100g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Barra laCreme de Chocolate Mezzo 100g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Barra laCreme de Chocolate Branco com Pistache 100g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Barra laCreme de Chocolate ao Leite e Avelã 100g
+                        </p>
+                    </td>
+                </tr>
+                <!-- preço do produto -->
+                <tr>
+                    <td>
+                        <p>R$ <span>19,99</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>19,99</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>22,99</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>19,99</span> <small>/un</small></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- chocolates tabletes-->
+        <section>
+            <h3>Tablete</h3>
+            <table border="1" width="100%" cellpadding="0" cellspacing="0">
+                <!-- imagem do produto -->
+                <tr height="330px">
+                    <td width="300px">
+                        <img src="./img/tabletes/AoLeiteEMenta.webp" alt="" width="300px">
+                    </td>
+
+                    <td width="25%">
+                        <img src="./img/tabletes/cafeAoLeite.webp" alt="" width="300px">
+                    </td>
+
+                    <td width="25%">
+                        <img src="./img/tabletes/darkMilk.webp" alt="" width="250px">
+                    </td>
+
+                    <td width="25%">
+                        <img src="./img/tabletes/DedoDeDeus.webp" alt="" width="255px">
+                    </td>
+                </tr>
+                <!-- nome do produto -->
+                <tr>
+                    <td>
+                        <p>
+                            Tablete de Chocolate ao Leite e Menta 5g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Tablete de Chocolate ao Leite Café 5g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Tablete Dark Milk de Chocolate 55% Cacau 5g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Tablete Dedo de Deus 67% Cacau 5g
+                        </p>
+                    </td>
+                </tr>
+                <!-- preço do produto -->
+                <tr>
+                    <td>
+                        <p>R$ <span>1,29</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>1,29</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>1,29</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>1,29</span> <small>/un</small></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- chocolates bombons -->
+        <section>
+            <h3>Trufas</h3>
+            <table border="1" width="100%" cellpadding="0" cellspacing="0">
+                <!-- imagem do produto -->
+                <tr height="330px">
+                    <td width="25%">
+                        <img src="./img/trufas/laCremeAoLeite.webp" alt="" width="264px">
+                    </td>
+                    <td width="25%">
+                        <img src="./img/trufas/aoLeite.webp" alt="" width="264px">
+                    </td>
+                    <td width="25%">
+                        <img src="./img/trufas/pacoca.webp" alt="" width="264px">
+                    </td>
+                    <td width="25%">
+                        <img src="./img/trufas/morango.webp" alt="" width="264px">
+                    </td>
+                </tr>
+                <!-- nome do produto -->
+                <tr>
+                    <td>
+                        <p>
+                            Trufa laCreme ao Leite 13,5g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Trufa ao Leite Tradicional 30g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Trufa ao Leite de Paçoca 30g
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            Trufa ao Leite de Morango 30g
+                        </p>
+                    </td>
+                </tr>
+                <!-- preço do produto -->
+                <tr>
+                    <td>
+                        <p>R$ <span>3,49</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>4,99</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>4,99</span> <small>/un</small></p>
+                    </td>
+                    <td>
+                        <p>R$ <span>4,99</span> <small>/un</small></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- descrevendo a cacau show -->
+        <section>
+            <article>
+                <h3>🍫 Descubra o Mundo Cacau Show</h3>
+                <p>
+                    Na Cacau Show, cada chocolate é feito para transformar momentos simples em experiências especiais. São Trufas irresistíveis, Tabletes cremosos, Bombons artesanais e Presentes de chocolate que combinam qualidade, sabor e muito carinho. Além disso, nossa sessão de Mesa e Cozinha conta com opções únicas, unindo funcionalidade e estilo. 
+                </p>
+                <p>
+                    Aqui, o amor pelo cacau se transforma em produtos imperdíveis: do clássico chocolate ao leite, aos intensos e recheados. Tudo preparado com ingredientes selecionados e o cuidado que só quem entende de chocolate, pode oferecer.
+                </p>
+                <p>
+                    Quer surpreender alguém ou dar um presente? Na Cacau Show, você encontra opções para todos os gostos e ocasiões. Somos apaixonados por criar experiências. Afinal, acreditar no poder de um pedacinho de felicidade é o que nos move todos os dias.
+                </p>
+                <p>
+                    Descubra o mundo Cacau Show e viva momentos doces, cheio de sabor, afeto e boas lembranças.
+                </p>
+            </article>
+        </section>
+        <br>
+    </main>
+    <footer>
+        <table width="100%">
+            <!-- linha 1 -->
+            <tr>
+                <td width="500px">
+                    <small>
+                        <p>Preços apresentados na loja virtual podem variar de acordo com a região. Informações sobre preços, prazos de validade, estoque e origem podem ser obtidas diretamente nas lojas.  Consulte a loja para verificar disponibilidade.</p>
+                    </small>
+                </td>
+                <td>
+                    <h4>institucional</h4>
+                </td>
+                <td><h4>Políticas</h4></td>
+                <td><h4>Siga-nos</h4></td>
+            </tr>
+            <!-- linha 2 -->
+            <tr>
+                <td>
+                    <small>
+                        <p>Preços, estoques, informações e condições disponíveis no site estão sujeitos a alterações sem aviso prévio. *Preços e produtos do Choco-Outlet são válidos somente para compras realizadas na loja virtual sujeito a disponibilidade de estoque.</p>
+                    </small>
+                </td>
+                <td>
+                    <a href="#">Seja um Revendedor</a>
+                </td>
+                <td>
+                    <a href="#">Termos de Uso</a>
+                </td>
+                <!-- redes sociais -->
+                <td>
+                    <!-- facebook -->
+                    <a href="https://www.facebook.com/CacauShow" target="_blank"><img src="./img/redesSociais/facebook.png" alt="Logo facebook" width="32px"></a> 
+                    <!-- instagram -->
+                    <a href="https://www.instagram.com/cacaushow/" target="_blank"><img src="./img/redesSociais/instagram.png" alt="Logo instagram" width="32px"></a>
+                    <!-- youtube -->
+                    <a href="https://www.youtube.com/user/CacauShowBR" target="_blank"><img src="./img/redesSociais/youtube.png" alt="Logo youtube" width="32px"></a>
+                    <!-- tiktok -->
+                    <a href="https://www.tiktok.com/@cacaushow" target="_blank"><img src="./img/redesSociais/tiktok.png" alt="Logo tiktok" width="32px"></a>
+                    <!-- linkedin -->
+                    <a href="https://www.linkedin.com/company/cacau-show/" target="_blank"><img src="./img/redesSociais/linkedin.png" alt="Logo linkedin" width="32px"></a>
+                    <!-- Twitter -->
+                    <a href="https://x.com/cacaushow" target="_blank"><img src="./img/redesSociais/twitter.png" alt="Logo twitter" width="32px"></a>
+                </td>
+            </tr>
+            <!-- linha 3 -->
+            <tr>
+                <td></td>
+                <td>
+                    <a href="#">seja um Franqueado</a>
+                </td>
+                <td>
+                    <a href="#">Política de Privacidade</a>
+                </td>
+            </tr>
+            <!-- linha 4 -->
+            <tr>
+                <td></td>
+                <td>
+                    <a href="#">Área para Empresas</a>
+                </td>
+                <td>
+                    <a href="#">Política de Trocas</a>
+                </td>
+            </tr>
+            <!-- linha 5 -->
+            <tr>
+                <td></td>
+                <td>
+                    <a href="#">Trabalhe Conosco</a>
+                </td>
+                <td>
+                    <a href="#">FAQ</a>
+                </td>
+            </tr>
+            <!-- linha 6 -->
+            <tr>
+                <td></td>
+                <td>
+                    <a href="#">Língua de Gato</a>
+                </td>
+                <td>
+                    <a href="#">Regulamentos</a>
+                </td>
+            </tr>
+            <!-- linha 7 -->
+            <tr>
+                <td></td>
+                <td>
+                    <p>Imprensa:</p>
+                    <a href="#">Cacaushow@loures.com.br</a>
+                </td>
+                <td>
+                    <a href="#">SAC</a>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
